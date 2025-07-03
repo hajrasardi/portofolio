@@ -5,9 +5,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import {
   Card,
-  CardAction,
   CardContent,
-  CardDescription,
   CardFooter,
   CardHeader,
   CardTitle,
@@ -112,8 +110,8 @@ export default function Home() {
                     Striving to never stop learning and improving.
                   </p>
                   <p>
-                    When I'm not coding, I am writing blogs, reading, or picking
-                    up some new hands-on art project like photography.
+                    When I&apos;m not coding, I am writing blogs, reading, or
+                    picking up some new hands-on art project like photography.
                   </p>
                   <p>
                     I like to have my perspective and belief systems challenged
@@ -145,7 +143,7 @@ export default function Home() {
               <h2 className="text-4xl font-bold">My Skills</h2>
               <div className="h-1 w-50 bg-blue-500 rounded-full my-2"></div>{" "}
               <p className="text-[20px]">
-                I'm striving to never stop learning and improving
+                I&apos;m striving to never stop learning and improving
               </p>
             </div>
 
@@ -435,7 +433,7 @@ export default function Home() {
               <h2 className="text-4xl font-bold">Contact Me</h2>
               <div className="h-1 w-50 bg-blue-500 rounded-full my-2"></div>{" "}
               <p className="text-[20px] text-white">
-                I'm currently available for freelance work
+                I&apos;m currently available for freelance work
               </p>
             </div>
             <div className="flex flex-col items-center">

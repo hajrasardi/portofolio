@@ -26,7 +26,7 @@ export default function Navbar() {
         const el = document.querySelector(href);
         return {
           href,
-          offset: el?.getBoundingClientRect().top! + window.scrollY,
+          offset: el ? el.getBoundingClientRect().top + window.scrollY : 0,
         };
       });
 
